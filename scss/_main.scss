@@ -1,0 +1,133 @@
+.offer {
+  background: $bg-accent;
+  padding-bottom: 141px;
+  padding-top: 257px;
+
+  &title {
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0 0 60px;
+  }
+
+  &description {
+    color: $text-secondary;
+    max-width: 540px;
+    margin: 0 0 60px;
+  }
+}
+
+.button {
+  background: $color-accent;
+  color: $text-accent;
+  border: $button-border;
+  padding: 18px 41px;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.64;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  min-width: 225px;
+  box-sizing: border-box;
+
+  &:focus {
+    opacity: .8;
+
+    &:active {
+      opacity: .3;
+    }
+  }
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &accent {
+    background: $bg-accent;
+  }
+
+  &title {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 0 50px;
+  }
+
+  &description {
+    color: $text-secondary;
+    margin: 0;
+    max-width: 540px;
+    text-align: center;
+  }
+
+  &description:not(last-child) {
+    margin-bottom: 50px;
+  }
+
+  &video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+.footer__container {
+  background: $color-accent;
+  width: 1920px;
+  height: 250px;
+  max-width: 100%;
+  color: $text-accent;
+
+  &nav {
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  &list {
+    display: flex;
+    position: relative;
+    margin-left: calc(15vw - 40px);
+    padding-top: 85px;
+  }
+
+  &item {
+    width: 144px;
+    height: 61px;
+    padding-right: 50px;
+    display: flex;
+    gap: 5px 10px;
+  }
+
+  &text {
+    color: $text-accent;
+    display: grid;
+    grid-template-columns:50px auto;
+    grid-template-rows: auto auto;
+    text-decoration: none;
+    line-height: 1.64;
+    letter-spacing: 0.1em;
+  }
+
+  &title {
+    grid-row: span 2;
+    color: $text-accent;
+    line-height: 1.64;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    padding-top: 40px;
+    margin-left: -50px;
+  }
+}
+
+
+
+
+
+
+
+
+

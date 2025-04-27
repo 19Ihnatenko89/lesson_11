@@ -1,0 +1,24 @@
+.article {
+  background: $color-accent;
+  max-width: 100%;
+  height: 151px;
+
+  &title {
+    color: $text-accent;
+    width: 219px;
+    height: 19px;
+    padding-top: 20px;
+    margin: 0 10px;
+  }
+
+  &class {
+    color: $text-accent;
+    width: 193px;
+    height: 12px;
+    padding: min(10px, 10px);
+  }
+}
+
+
+
+
