@@ -3,7 +3,7 @@
   max-width: 100%;
   height: 151px;
 
-  &title {
+  &__title {
     color: $text-accent;
     width: 219px;
     height: 19px;
@@ -11,7 +11,7 @@
     margin: 0 10px;
   }
 
-  &class {
+  &__class {
     color: $text-accent;
     width: 193px;
     height: 12px;
